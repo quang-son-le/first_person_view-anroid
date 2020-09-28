@@ -5,6 +5,7 @@ Streaming video from camera on vrep simualtion to other station via tcp (this ca
 Tut: create a vrep scene and add a vision sensor named "v0"
 
 ensure traditional remote api (python) can work (check details at vrep installed directory: CoppeliaRobotics\CoppeliaSimEdu\programming\remoteApiBindings\python\python)
+
 run server first and client later , as usual
 
 email: officialquangsonle@gmail.com if have troubles
