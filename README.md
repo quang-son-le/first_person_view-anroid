@@ -8,4 +8,6 @@ ensure traditional remote api (python) can work (check details at vrep installed
 
 run server first and client later , as usual
 
+the demo video: https://www.youtube.com/watch?v=oN9Dafrt27I
+
 email: officialquangsonle@gmail.com if have troubles
