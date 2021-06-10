@@ -5,12 +5,12 @@ import struct
 import time
 import pickle
 import zlib
-import vrep
+import sim as vrep
 import numpy as np
 from PIL import Image as I
 import array
 clientID=vrep.simxStart('127.0.0.1',19998,True,True,5000,5) # Connect to V-REP
-res,v0=vrep.simxGetObjectHandle(clientID,'vision',vrep.simx_opmode_oneshot_wait)#'Quadricopter_frontCamera'
+res,v0=vrep.simxGetObjectHandle(clientID,'v0',vrep.simx_opmode_oneshot_wait)#'Quadricopter_frontCamera'
 
 # end of vrep
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
